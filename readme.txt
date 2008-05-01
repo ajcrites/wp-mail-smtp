@@ -3,8 +3,8 @@ Contributors: chmac
 Donate link: http://www.callum-macdonald.com/code/donate/
 Tags: mail, smtp, wp_mail, mailer, phpmailer
 Requires at least: 2.0
-Tested up to: 2.3
-Stable tag: 0.4
+Tested up to: 2.5.1
+Stable tag: 0.7
 
 Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an options page to manage host, username, password, etc.
 
@@ -21,8 +21,8 @@ You can set the following options:
 
 == Installation ==
 
-1. Download the wp_mail_smtp.php file.
-2. Upload the file to your `/wp-contents/plugins/` directory.
+1. Download
+2. Upload to your `/wp-contents/plugins/` directory.
 3. Activate the plugin through the 'Plugins' menu in WordPress.
 
 == Frequently Asked Questions ==
@@ -44,6 +44,10 @@ Short answer: maybe.
 
 By all means please contact me to discuss features or options you'd like to see added to the plugin. I can't guarantee to add all of them, but I will consider all sensible requests. I can be contacted here:
 <http://www.callum-macdonald.com/contact/>
+
+= Will this plugin work with WordPress versions less than 2.3? =
+
+Yes. On versions of WordPress prior to 2.3, ignore the From Name field, and instead enter both the name and email in the From Email field, in the form Name&lt;email@domain.com&gt;.
 
 == Screenshots ==
 
