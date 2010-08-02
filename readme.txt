@@ -3,7 +3,7 @@ Contributors: chmac
 Donate link: http://www.callum-macdonald.com/code/donate/
 Tags: mail, smtp, wp_mail, mailer, phpmailer
 Requires at least: 2.7
-Tested up to: 2.9.2
+Tested up to: 3.0.1
 Stable tag: 0.8.6
 
 Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an options page to manage the settings.
@@ -53,7 +53,7 @@ Password: your mail password
 Short answer: maybe.
 
 By all means please contact me to discuss features or options you'd like to see added to the plugin. I can't guarantee to add all of them, but I will consider all sensible requests. I can be contacted here:
-<http://www.callum-macdonald.com/contact/>
+<http://www.callum-macdonald.com/code/wp-mail-smtp/>
 
 == Screenshots ==
 
@@ -136,8 +136,3 @@ Minor bugfix for users using constants. Another very low priority upgrade. Apolo
 
 = 0.8.3 =
 Minor bugfix for users using constants. Very low priority upgrade.
-
-== Support Questions ==
-
-If you have support questions not covered in this readme, you can contact me here:
-<http://www.callum-macdonald.com/contact/>
