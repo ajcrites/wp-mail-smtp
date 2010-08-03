@@ -13,13 +13,13 @@ Reconfigures the wp_mail() function to use SMTP instead of mail() and creates an
 This plugin reconfigures the wp_mail() function to use SMTP instead of mail() and creates an options page that allows you to specify various options.
 
 You can set the following options:
-*   Specify the from name and email address for outgoing email.
-*   Choose to send mail by SMTP or PHP's mail() function.
-*   Specify an SMTP host (defaults to localhost).
-*   Specify an SMTP port (defaults to 25).
-*   Choose SSL / TLS encryption (not the same as STARTTLS).
-*   Choose to use SMTP authentication or not (defaults to not).
-*   Specify an SMTP username and password.
+ * Specify the from name and email address for outgoing email.
+ *  Choose to send mail by SMTP or PHP's mail() function.
+ * Specify an SMTP host (defaults to localhost).
+ * Specify an SMTP port (defaults to 25).
+ * Choose SSL / TLS encryption (not the same as STARTTLS).
+ * Choose to use SMTP authentication or not (defaults to not).
+ * Specify an SMTP username and password.
 
 == Installation ==
 
