@@ -302,7 +302,7 @@ function wp_mail_smtp_options_page() {
 </tr>
 <tr valign="top">
 <th scope="row"><label for="smtp_pass"><?php _e('Password', 'wp_mail_smtp'); ?></label></th>
-<td><input name="smtp_pass" type="text" id="smtp_pass" value="<?php print(get_option('smtp_pass')); ?>" size="40" class="code" /></td>
+<td><input name="smtp_pass" type="password" id="smtp_pass" size="40" class="code" /></td>
 </tr>
 </table>
 
